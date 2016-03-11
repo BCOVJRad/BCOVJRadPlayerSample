@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387DFCD71ED41A831F13B91F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F06CC7F914DEBA78DB2BDD2 /* libPods.a */; };
 		7007AC3419FFE3FF005BF986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7007AC3319FFE3FF005BF986 /* main.m */; };
 		7007AC3719FFE3FF005BF986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7007AC3619FFE3FF005BF986 /* AppDelegate.m */; };
 		7007AC3A19FFE3FF005BF986 /* BCOVJRadPlayerSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7007AC3819FFE3FF005BF986 /* BCOVJRadPlayerSample.xcdatamodeld */; };
@@ -15,6 +16,19 @@
 		7007AC4219FFE3FF005BF986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7007AC4119FFE3FF005BF986 /* Images.xcassets */; };
 		7007AC4519FFE3FF005BF986 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7007AC4319FFE3FF005BF986 /* LaunchScreen.xib */; };
 		7007AC5119FFE3FF005BF986 /* BCOVJRadPlayerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7007AC5019FFE3FF005BF986 /* BCOVJRadPlayerSampleTests.m */; };
+		7021894C1A01616F002A866D /* pause_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7021894A1A01616F002A866D /* pause_btn.png */; };
+		7021894D1A01616F002A866D /* pause_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7021894A1A01616F002A866D /* pause_btn.png */; };
+		7021894E1A01616F002A866D /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7021894B1A01616F002A866D /* play_btn.png */; };
+		7021894F1A01616F002A866D /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7021894B1A01616F002A866D /* play_btn.png */; };
+		702189511A016B4D002A866D /* brightcove.png in Resources */ = {isa = PBXBuildFile; fileRef = 702189501A016B4D002A866D /* brightcove.png */; };
+		702189521A016B4D002A866D /* brightcove.png in Resources */ = {isa = PBXBuildFile; fileRef = 702189501A016B4D002A866D /* brightcove.png */; };
+		702189551A0267AD002A866D /* BCOVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 702189541A0267AD002A866D /* BCOVPlayerManager.m */; };
+		702189561A0267AD002A866D /* BCOVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 702189541A0267AD002A866D /* BCOVPlayerManager.m */; };
+		702189591A02847C002A866D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 702189581A02847C002A866D /* libPods.a */; };
+		7021895C1A03AFDF002A866D /* BCOVPlayPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021895B1A03AFDF002A866D /* BCOVPlayPauseViewController.m */; };
+		7021895D1A03AFDF002A866D /* BCOVPlayPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021895B1A03AFDF002A866D /* BCOVPlayPauseViewController.m */; };
+		702189631A03B4A1002A866D /* BCOVPlayPauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702189621A03B4A1002A866D /* BCOVPlayPauseViewController.xib */; };
+		702189641A03B4A1002A866D /* BCOVPlayPauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702189621A03B4A1002A866D /* BCOVPlayPauseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F06CC7F914DEBA78DB2BDD2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7007AC2E19FFE3FF005BF986 /* BCOVJRadPlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCOVJRadPlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7007AC3219FFE3FF005BF986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7007AC3319FFE3FF005BF986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +57,18 @@
 		7007AC4A19FFE3FF005BF986 /* BCOVJRadPlayerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCOVJRadPlayerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7007AC4F19FFE3FF005BF986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7007AC5019FFE3FF005BF986 /* BCOVJRadPlayerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCOVJRadPlayerSampleTests.m; sourceTree = "<group>"; };
+		7021894A1A01616F002A866D /* pause_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause_btn.png; path = Resources/pause_btn.png; sourceTree = "<group>"; };
+		7021894B1A01616F002A866D /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_btn.png; path = Resources/play_btn.png; sourceTree = "<group>"; };
+		702189501A016B4D002A866D /* brightcove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brightcove.png; path = Resources/brightcove.png; sourceTree = "<group>"; };
+		702189531A0267AD002A866D /* BCOVPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCOVPlayerManager.h; path = Utilities/BCOVPlayerManager.h; sourceTree = "<group>"; };
+		702189541A0267AD002A866D /* BCOVPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCOVPlayerManager.m; path = Utilities/BCOVPlayerManager.m; sourceTree = "<group>"; };
+		702189581A02847C002A866D /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		7021895A1A03AFDF002A866D /* BCOVPlayPauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCOVPlayPauseViewController.h; path = ViewControllers/BCOVPlayPauseViewController.h; sourceTree = "<group>"; };
+		7021895B1A03AFDF002A866D /* BCOVPlayPauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCOVPlayPauseViewController.m; path = ViewControllers/BCOVPlayPauseViewController.m; sourceTree = "<group>"; };
+		702189621A03B4A1002A866D /* BCOVPlayPauseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCOVPlayPauseViewController.xib; sourceTree = "<group>"; };
+		70F7BD291A6700EA008B0A9D /* BCOVLogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCOVLogUtils.h; sourceTree = "<group>"; };
+		9160A177C8D55960AF7C74EC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A5BD25D21EEF0716EC324410 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387DFCD71ED41A831F13B91F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702189591A02847C002A866D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +97,8 @@
 				7007AC3019FFE3FF005BF986 /* BCOVJRadPlayerSample */,
 				7007AC4D19FFE3FF005BF986 /* BCOVJRadPlayerSampleTests */,
 				7007AC2F19FFE3FF005BF986 /* Products */,
+				FD9DD0C88096E7433DADB556 /* Pods */,
+				F41E6486DA0C0658DA70B1F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +114,8 @@
 		7007AC3019FFE3FF005BF986 /* BCOVJRadPlayerSample */ = {
 			isa = PBXGroup;
 			children = (
+				7021895E1A03AFE5002A866D /* ViewControllers */,
+				702189571A0267B2002A866D /* Utilities */,
 				7007AC3519FFE3FF005BF986 /* AppDelegate.h */,
 				7007AC3619FFE3FF005BF986 /* AppDelegate.m */,
 				7007AC3B19FFE3FF005BF986 /* ViewController.h */,
@@ -99,6 +132,9 @@
 		7007AC3119FFE3FF005BF986 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				702189501A016B4D002A866D /* brightcove.png */,
+				7021894A1A01616F002A866D /* pause_btn.png */,
+				7021894B1A01616F002A866D /* play_btn.png */,
 				7007AC3219FFE3FF005BF986 /* Info.plist */,
 				7007AC3319FFE3FF005BF986 /* main.m */,
 			);
@@ -122,6 +158,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		702189571A0267B2002A866D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				702189531A0267AD002A866D /* BCOVPlayerManager.h */,
+				702189541A0267AD002A866D /* BCOVPlayerManager.m */,
+				70F7BD291A6700EA008B0A9D /* BCOVLogUtils.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7021895E1A03AFE5002A866D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7021895A1A03AFDF002A866D /* BCOVPlayPauseViewController.h */,
+				7021895B1A03AFDF002A866D /* BCOVPlayPauseViewController.m */,
+				702189621A03B4A1002A866D /* BCOVPlayPauseViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F41E6486DA0C0658DA70B1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				702189581A02847C002A866D /* libPods.a */,
+				5F06CC7F914DEBA78DB2BDD2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD9DD0C88096E7433DADB556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5BD25D21EEF0716EC324410 /* Pods.debug.xcconfig */,
+				9160A177C8D55960AF7C74EC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7007AC5419FFE3FF005BF986 /* Build configuration list for PBXNativeTarget "BCOVJRadPlayerSample" */;
 			buildPhases = (
+				8851FA771460E261EA8311EF /* Check Pods Manifest.lock */,
 				7007AC2A19FFE3FF005BF986 /* Sources */,
 				7007AC2B19FFE3FF005BF986 /* Frameworks */,
 				7007AC2C19FFE3FF005BF986 /* Resources */,
+				DE9EE8E07D522B867CA535C0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7007AC4019FFE3FF005BF986 /* Main.storyboard in Resources */,
+				702189631A03B4A1002A866D /* BCOVPlayPauseViewController.xib in Resources */,
+				7021894C1A01616F002A866D /* pause_btn.png in Resources */,
 				7007AC4519FFE3FF005BF986 /* LaunchScreen.xib in Resources */,
 				7007AC4219FFE3FF005BF986 /* Images.xcassets in Resources */,
+				702189511A016B4D002A866D /* brightcove.png in Resources */,
+				7021894E1A01616F002A866D /* play_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,10 +292,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7021894F1A01616F002A866D /* play_btn.png in Resources */,
+				702189641A03B4A1002A866D /* BCOVPlayPauseViewController.xib in Resources */,
+				702189521A016B4D002A866D /* brightcove.png in Resources */,
+				7021894D1A01616F002A866D /* pause_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8851FA771460E261EA8311EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9EE8E07D522B867CA535C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7007AC2A19FFE3FF005BF986 /* Sources */ = {
@@ -226,6 +343,8 @@
 				7007AC3719FFE3FF005BF986 /* AppDelegate.m in Sources */,
 				7007AC3D19FFE3FF005BF986 /* ViewController.m in Sources */,
 				7007AC3419FFE3FF005BF986 /* main.m in Sources */,
+				702189551A0267AD002A866D /* BCOVPlayerManager.m in Sources */,
+				7021895C1A03AFDF002A866D /* BCOVPlayPauseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +352,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702189561A0267AD002A866D /* BCOVPlayerManager.m in Sources */,
 				7007AC5119FFE3FF005BF986 /* BCOVJRadPlayerSampleTests.m in Sources */,
+				7021895D1A03AFDF002A866D /* BCOVPlayPauseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +405,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Cortes (8H9A4H86SV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Cortes (8H9A4H86SV)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -304,6 +426,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "191fe14d-5666-4c98-b66f-c82e62c9c06c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -326,7 +449,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Megan Matey (RP7C3H2395)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Megan Matey (RP7C3H2395)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -339,6 +463,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "dc8a5a2e-e84b-4c1e-b61c-f4c180ef6e0e";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -347,26 +472,49 @@
 		};
 		7007AC5519FFE3FF005BF986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BD25D21EEF0716EC324410 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Cortes (8H9A4H86SV)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/UIView-Autolayout\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = BCOVJRadPlayerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "191fe14d-5666-4c98-b66f-c82e62c9c06c";
 			};
 			name = Debug;
 		};
 		7007AC5619FFE3FF005BF986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9160A177C8D55960AF7C74EC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Megan Matey (RP7C3H2395)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"\"${PODS_ROOT}/Headers/Public/UIView-Autolayout\"",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = BCOVJRadPlayerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc8a5a2e-e84b-4c1e-b61c-f4c180ef6e0e";
 			};
 			name = Release;
 		};
 		7007AC5819FFE3FF005BF986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BD25D21EEF0716EC324410 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -377,8 +525,21 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/UIView-Autolayout\"",
+				);
 				INFOPLIST_FILE = BCOVJRadPlayerSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"\"$(PODS_ROOT)/Brightcove-Player-SDK/Library\"",
+				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCOVJRadPlayerSample.app/BCOVJRadPlayerSample";
 			};
@@ -386,14 +547,28 @@
 		};
 		7007AC5919FFE3FF005BF986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9160A177C8D55960AF7C74EC /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Brightcove-Player-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/UIView-Autolayout\"",
+				);
 				INFOPLIST_FILE = BCOVJRadPlayerSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+					"\"$(PODS_ROOT)/Brightcove-Player-SDK/Library\"",
+				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BCOVJRadPlayerSample.app/BCOVJRadPlayerSample";
 			};
@@ -418,6 +593,7 @@
 				7007AC5619FFE3FF005BF986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7007AC5719FFE3FF005BF986 /* Build configuration list for PBXNativeTarget "BCOVJRadPlayerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +602,7 @@
 				7007AC5919FFE3FF005BF986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
